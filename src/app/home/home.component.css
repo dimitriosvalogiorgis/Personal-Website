@@ -3,3 +3,14 @@
   justify-content: center;
   gap: 30vw;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+   bottom: 0;
+   width: 100%;
+   color: #FAECE2;
+   text-align: center;
+   max-inline-size: 30rem;
+   white-space: nowrap;
+}
