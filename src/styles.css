@@ -1,15 +1,22 @@
 h1 {
-  justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 82vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
   color:#FAECE2;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+   color:#FAECE2;
 }
 
 body{
   width: 100vw;
   height: 100vh;
-  background-image:url(../public/blurry-gradient-haikei.png);
+  background-image:url(../public/blurry-gradient-haikei.svg);
   background-size: cover;
 }
