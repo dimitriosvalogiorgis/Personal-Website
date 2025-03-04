@@ -1,0 +1,18 @@
+.title {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.subtitle {
+  display: flex;
+  align-items:left;
+  justify-content: left;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 100px;
+   color:#FAECE2;
+}
