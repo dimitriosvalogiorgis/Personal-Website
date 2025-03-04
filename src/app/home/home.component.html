@@ -14,13 +14,23 @@
   type="button"
   ><tui-avatar size="m" src="https://avatars.githubusercontent.com/u/199919904?s=400&u=113602b76f24fe0282f232365e88a3ba54587d3b&v=4"/>Portfolio</a>
 </div>
-<div tuiAppearance="floating" tuiButtonGroup class="footer">
-<a button type="button">
+<div tuiAppearance="floating" class="footer">
+  <tui-expand [expanded]="expanded">
+    <p>dimitriosvalogiorgis&#64;gmail.com</p>
+  </tui-expand>
+<div tuiButtonGroup>
+  <button type="button"
+(click)="expanded =!expanded">
   <tui-icon icon="@tui.mail"/>
   E-mail
-</a>
-<a button type="button">
+</button>
+<a button type="button"
+href="https://github.com/dimitriosvalogiorgis">
   <tui-icon icon="@tui.github"/>
   Github
 </a>
 </div>
+</div>
+
+
+
