@@ -1,8 +1,29 @@
+h4{
+  padding-top:50px;
+}
+
 .container {
   display: flex;
   justify-content: center;
   gap: 30vw;
   color:var(--tui-text-positive);
+  padding-top:100px;
+}
+
+h1{
+  color:#FAECE2;
+  justify-content: center;
+  display:flex;
+  padding-top:70px;
+  padding-left: 50px;
+}
+
+.tui-list{
+  color:#FAECE2;
+  justify-content: center;
+  display:flex;
+  padding-top:50px;
+  padding-bottom:50px;
 }
 
 .footer {

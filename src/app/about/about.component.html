@@ -3,9 +3,9 @@
   <div class="title">
   <h2 tuiTitle>{{item.title}}</h2>
 </div>
-<ul>
+<ul class="tui-list">
   @for(listItem of item.listItems;track $index){
-    <li class="tui-list__item subtitle">{{listItem}}</li>
+    <li class="tui-list__item">{{listItem}}</li>
   }
 </ul>
 }

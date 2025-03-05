@@ -3,10 +3,14 @@
   align-items: left;
   justify-content: left;
   text-align: left;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-left: 50px;
+  padding-bottom: 20px;
 }
 
-.subtitle {
+.tui-list{
    color:#FAECE2;
+   padding-left:20px;
+   padding-bottom: 10px;
 }
+
