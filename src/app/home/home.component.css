@@ -2,15 +2,25 @@
   display: flex;
   justify-content: center;
   gap: 30vw;
+  color:var(--tui-text-positive);
 }
 
 .footer {
   position: fixed;
-  left: 0;
-   bottom: 0;
+  left: 10px;
+   bottom: 5px;
    width: 100%;
    color: #FAECE2;
    text-align: center;
-   max-inline-size: 30rem;
+   max-inline-size: 20rem;
    white-space: nowrap;
 }
+
+[tuiButtonGroup]{
+  background: linear-gradient(334.83deg, #7d8ca0 0%, #647382 100%);
+
+    button {
+        color: #fff;
+    }
+}
+

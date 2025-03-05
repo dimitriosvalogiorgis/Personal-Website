@@ -1,12 +1,15 @@
-<h4>Drag images to the left to view all images related to the projects</h4>
+<h4 tuiTitle>Drag images to the left to view all images related to the projects</h4>
 
 <div class="items-container">
+
+  <h2 tuiTitle>A voting system with log in functionality. Made with Angular. </h2>
 
   <tui-carousel
 class = "carousel-container"
 [draggable]="true"
 [itemsCount]="1"
 [(index)]="index">
+
 
 @for (item of voting; track $index){
 <img
@@ -19,6 +22,8 @@ class="item"
 />
 }
 </tui-carousel>
+
+<h2 tuiTitle>An fullstack inventory manager project developed for music shops using C#, .NET and MySQL</h2>
 
 <tui-carousel
 class = "carousel-container"
@@ -38,6 +43,8 @@ class="item"
 }
 
 </tui-carousel>
+
+<h2 tuiTitle>An English learning platform with a log in page, made with Angular, using calendar libraries from fullcalendar.io </h2>
 
 <tui-carousel
 class = "carousel-container"

@@ -1,34 +1,41 @@
 <h4 tuiTitle>In this webpage developed by me, hosted on firebase, you can view information about me, my projects thus far and contact information</h4>
+
 <div class="container">
+
 <a tuiButton
   href="/about"
   size="l"
-  appearance="primary"
+  tuiAppearanceMode="checked"
+  appearance="glass"
   tuiButton
   type="button"
   >About</a>
+
   <a tuiButton
   href="/projects"
-  appearance="primary"
+  tuiAppearanceMode="checked"
+  appearance="glass"
   tuiButton
   type="button"
   ><tui-avatar size="m" src="https://avatars.githubusercontent.com/u/199919904?s=400&u=113602b76f24fe0282f232365e88a3ba54587d3b&v=4"/>Portfolio</a>
+
 </div>
+
 <div tuiAppearance="floating" class="footer">
   <tui-expand [expanded]="expanded">
     <p>dimitriosvalogiorgis&#64;gmail.com</p>
   </tui-expand>
-<div tuiButtonGroup>
+<div tuiButtonGroup tuiTheme="dark">
   <button type="button"
 (click)="expanded =!expanded">
   <tui-icon icon="@tui.mail"/>
   E-mail
 </button>
-<a button type="button"
-href="https://github.com/dimitriosvalogiorgis">
+<button type="button"
+onclick="window.location='https://github.com/dimitriosvalogiorgis';">
   <tui-icon icon="@tui.github"/>
   Github
-</a>
+</button>
 </div>
 </div>
 
