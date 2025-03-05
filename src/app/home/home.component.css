@@ -20,11 +20,10 @@ h1{
 
 .tui-list{
   color:#FAECE2;
-  justify-content: center;
-  display:flex;
   padding-top:50px;
   padding-bottom:50px;
 }
+
 
 .footer {
   position: fixed;
