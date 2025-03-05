@@ -1,1 +1,58 @@
-<p>projects works!</p>
+<h4>Drag images to the left to view all images related to the projects</h4>
+
+<div class="items-container">
+
+  <tui-carousel
+class = "carousel-container"
+[draggable]="true"
+[itemsCount]="1"
+[(index)]="index">
+
+@for (item of voting; track $index){
+<img
+*tuiItem
+alt=""
+draggable="false"
+[src]="'assets/Voting-System/' + item "
+class="item"
+[class.item_active]="$index === index + 1"
+/>
+}
+</tui-carousel>
+
+<tui-carousel
+class = "carousel-container"
+[draggable]="true"
+[itemsCount]="1"
+[(index)]="musicIndex">
+
+@for (item of music; track $index){
+<img
+*tuiItem
+alt=""
+draggable="false"
+[src]="'assets/Music Shop/' + item "
+class="item"
+[class.item_active]="$index === musicIndex + 1"
+/>
+}
+
+</tui-carousel>
+
+<tui-carousel
+class = "carousel-container"
+[draggable]="true"
+[itemsCount]="1"
+[(index)]="azxIndex">
+
+@for (item of azx; track $index){
+<img
+*tuiItem
+alt=""
+draggable="false"
+[src]="'assets/AZX/' + item "
+class="item"
+[class.item_active]="$index === azxIndex + 1"
+/>
+}
+

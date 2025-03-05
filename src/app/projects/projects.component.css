@@ -1,0 +1,13 @@
+.items-container{
+  display:flex;
+flex-direction: column;
+justify-items: center;
+align-items: center;
+gap:2rem;
+}
+
+.carousel-container{
+  flex-grow:1;
+  max-width: 50vw;
+}
+

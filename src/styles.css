@@ -23,8 +23,12 @@ h4 {
 }
 
 body{
+  position:absolute;
+  top:0;
+  left:0;
   width: 100vw;
-  height: 100vh;
-  background-image:url(../public/blurry-gradient-haikei.svg);
+  min-height: 100vh;
+  background-image:url(../public/low-poly-grid-haikei.svg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
