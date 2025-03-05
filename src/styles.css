@@ -32,5 +32,5 @@ body{
   min-height: 100vh;
   background-image:url(../public/low-poly-grid-haikei.svg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
